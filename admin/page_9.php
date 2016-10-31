@@ -1,4 +1,4 @@
-<?
+<?php
 
 if(isset($_POST['cari'])){
 	$keySearch = $_POST['keySearch'];
