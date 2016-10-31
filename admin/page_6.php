@@ -1,4 +1,4 @@
-<?
+<?php
 $display = "\n<form action=\"\" method=\"POST\" enctype=\"multipart/form-data\">";
 $display.= "\n<table border=\"0\" class=\"tbl\">";
 $display.= "\n<tr>";
