@@ -1,0 +1,119 @@
+#bg_popup {
+position:absolute;
+left:0;
+top:0;
+z-index:9000;
+background-color:#000;
+display:none;}
+
+#boxes .window { 
+position:absolute;
+left:0;
+top:0; 
+display:none;
+z-index:9999;
+padding:20px;}
+
+#boxes #popup {
+position:relative;
+padding:5px;
+background-color:#ffffff;
+	-webkit-border-radius: 1px;/* Saf3-4, iOS 1-3.2, Android =1.6 */
+	-moz-border-radius: 1px; /* FF1-3.6 */
+	-ms-border-radius: 1px; /* IE 9 */
+	-o-border-radius: 1px; /* Opera */
+    border-radius: 1px;
+	
+}
+.close{
+position:absolute;
+top:-26px;
+right:-28px;
+text-align: right;
+font-size: 10px; 
+z-index:9999;
+background:url(../images/close.png) no-repeat;
+width:24px;
+height:24px;
+color:#FFF;
+margin:10px;}
+
+.preview{
+float:left;
+border-style:solid;
+border-width:1px;
+border-color:#999999;
+height:100%;
+width:100px;
+}
+.preview2{
+float:right;
+border-style:solid;
+border-width:1px;
+border-color:#999999;
+height:100%;
+width:590px;
+}
+
+#logo{
+-ms-transform:rotate(-90deg); /* IE 9 */
+-moz-transform:rotate(-90deg); /* Firefox */
+-webkit-transform: rotate(-90deg);  /* Safari and Chrome */
+-o-transform:rotate(-90deg); /* Opera */
+float:right;
+margin-top:115%;
+margin-left:5px;
+}
+#company{
+font-weight:bold;
+font-size:12pt;
+margin-top:5%;
+width:180px;
+height:120%;
+-ms-transform:rotate(-90deg); /* IE 9 */
+-moz-transform:rotate(-90deg); /* Firefox */
+-webkit-transform: rotate(-90deg);  /* Safari and Chrome */
+-o-transform:rotate(-90deg); /* Opera */
+}
+.company-title {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 16px;
+	color: #666;
+}
+.layout{
+	border-width:medium;
+	border-top-color:#666;
+	border-top-style:inset;
+	border-right-color:#666;
+	border-right-style:ridge;
+	border-left-color:#666;
+	border-left-style:inset;
+	border-bottom-color:#666;
+	border-bottom-style:outset;
+	width:700px;
+}
+.element-text {
+	font-family: Arial, Helvetica, sans-serif;
+}
+.element-text {
+	font-family: Arial, Helvetica, sans-serif;
+}
+.element-text {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	vertical-align:top;
+	color: #666;
+}
+.element-value {
+	border-width:medium;
+	border-top-color:#666;
+	border-top-style:inset;
+	border-bottom-color:#666;
+	border-bottom-style:outset;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	color: #666;
+}
