@@ -1,4 +1,4 @@
-<?
+<?php
 //Insert ke tabel kwitansi
 if(!empty($_REQUEST['nomor']) && !empty($_REQUEST['uid']) && !empty($_REQUEST['trd']) && !empty($_REQUEST['ujml']) && !empty($_REQUEST['nmpay']) && !empty($_REQUEST['date'])){
 	$ktpay=terbilang($_REQUEST['ujml']);
