@@ -1,4 +1,4 @@
-<?
+<?php
 class user{
 	public function getuser($userid,$pwd){
 		$query="SELECT *FROM tbl_user WHERE USR_NAME='$userid' AND USR_PWD='$pwd'";
