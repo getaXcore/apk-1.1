@@ -1,5 +1,6 @@
 # apk-1.1
 Aplikasi Pembuatan Kwitansi Berbasis Web (Web based)
+<br/>
 Features :
 *Profiles (View and update your username and password)
 *Configuration (Setup company name, logo, city and street name, Signer name)
