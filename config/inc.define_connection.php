@@ -1,4 +1,4 @@
-<?
+<?php
 include "inc.connect.php";
 DEFINE("host","localhost");
 DEFINE("user","root");
