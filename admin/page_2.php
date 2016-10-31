@@ -1,4 +1,4 @@
-<?
+<?php
 $data = $user->getAllUser();
 
 $display = "\n<form action=\"\" method=\"POST\">";
