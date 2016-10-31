@@ -1,4 +1,4 @@
-<?
+<?php
 $max = $user->getMaxIdKwitansi();//ambil nilai max id dari tabel kwitansi
 $nomorKwitansi = nomorkw($max);//create nomor kwitansi
 
