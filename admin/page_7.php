@@ -1,4 +1,4 @@
-<?
+<?php
 $config=$user->getAllConfig();//ambil konfigurasi
 $kw=$user->getKwitansi($_REQUEST['kid']);
 //print_r($_REQUEST['kid']);
