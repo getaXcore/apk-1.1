@@ -1,4 +1,4 @@
-<?
+<?php
 header("Content-type: application/pdf");
 
 include "../tcpdf/config/lang/eng.php";
