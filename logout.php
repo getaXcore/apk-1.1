@@ -1,4 +1,4 @@
-<?
+<?php
 //$user->deleteSession($_REQUEST['uid']);
 session_start();
 session_destroy();
