@@ -1,4 +1,4 @@
-<?
+<?php
 class rangka{
 	function view_login($title,$source,$alt){
 		echo "\n<html>";
