@@ -1,4 +1,4 @@
-<?
+<?php
 $data = $user->getViewUser();
 $bulan = monthString();//array nama-nama bulan
 $LsDYear=substr($data['SESSION_DATE'],0,4);//ambil tahun
