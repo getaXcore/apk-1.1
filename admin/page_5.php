@@ -1,4 +1,4 @@
-<?
+<?php
 $config=$user->getCountConfig();
 if($config==0){
 	$maxIdConfig=$user->getMaxIdConfig();
