@@ -1,4 +1,4 @@
-<?
+<?php
 class MySQLConnection{
 	public function createConnection($host,$user,$pass,$db){
 		$connect = mysql_connect($host,$user,$pass);
