@@ -1,7 +1,7 @@
-<?
+<?php
 ini_set('display_errors', 'Off');  
 ini_set('log_errors', 'On');  
-ini_set('error_log', 'D:\_www\apk2\log\log.php');  
+ini_set('error_log', '/tmp/log.php');  
 error_reporting(E_ALL); 
 
 session_start();
